@@ -32,7 +32,7 @@ Based on market analysis and user stories, work has started on defining the targ
 ### Prioritized backlog
 
 *(Publicly accessible link OR screenshots OR table) of your prioritized backlog (Kanban board)*
-
+# ВЛАД ПОЛОЖИ ССЫЛКУ НА БЭКЛОГ СЮДА
 
 
 ## Project specific progress
@@ -67,13 +67,22 @@ Based on market analysis and user stories, work has started on defining the targ
 - **Polina**: Integrated the model with projector and adapter into the application.
 - **Janna**: Compiled the report, provided design screenshots, wrote user stories, and conducted market research.
 
+  All materials showing our progress are stored on disk. screenshots are sorted into folders for each team member.
+  https://disk.yandex.ru/d/gOtDVatB0l5FQw
+
+
+
 ## Plan for Next Week
 
 *No information provided for the plan for next week.*
+# ТУТ ДОЛЖНЫ БЫТЬ ПЛАНЫ НА СЛЕД НЕДЕЛЮ
 
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
 
-- \[ \] In working condition.
-- \[ \] Run via docker-compose (or another alternative described in the `README.md`).
+ * Can be run (Not fully free of bugs yet).
+ 
+ * Runs on the intended platform: macOS 15 via Xcode.
+
+If you encounter any problems running the setup, feel free to contact us and get help. Or maybe we can provide a video with how the current state of the prototype is working. 
