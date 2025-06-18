@@ -32,7 +32,26 @@ Based on market analysis and user stories, work has started on defining the targ
 ### Prioritized backlog
 
 *(Publicly accessible link OR screenshots OR table) of your prioritized backlog (Kanban board)*
-# ВЛАД ПОЛОЖИ ССЫЛКУ НА БЭКЛОГ СЮДА
+
+[Project Backlog - Kanban Board](https://github.com/users/vladkalinichencko/projects/1/views/3)
+
+
+## Requirements
+
+### Application Requirements
+
+During this week, we successfully implemented several key requirements for our application:
+
+**Responsive Interface**: We developed a responsive and intuitive user interface that adapts to different screen sizes and provides smooth user interaction. This ensures accessibility across various devices and enhances user experience.
+
+**macOS Compatibility**: The application has been specifically optimized for macOS platform, ensuring native performance and seamless integration with the operating system. This choice allows us to leverage macOS-specific features and provide the best possible performance on Apple devices.
+
+**Local Model Integration**: We implemented local machine learning model support, allowing the application to run AI models directly on the user's device. This approach provides several advantages:
+- Reduced latency for real-time processing
+- Independence from internet connectivity
+- Better performance for local computations
+
+These requirements form the foundation for our application's core functionality and ensure we meet our users' needs for privacy, performance, and usability.
 
 
 ## Project specific progress
@@ -67,22 +86,55 @@ Based on market analysis and user stories, work has started on defining the targ
 - **Polina**: Integrated the model with projector and adapter into the application.
 - **Janna**: Compiled the report, provided design screenshots, wrote user stories, and conducted market research.
 
-  All materials showing our progress are stored on disk. screenshots are sorted into folders for each team member.
-  https://disk.yandex.ru/d/gOtDVatB0l5FQw
+  All materials showing our progress are stored on disk. Screenshots are sorted into folders for each team member.
+  
+  [Project Materials - Yandex Disk](https://disk.yandex.ru/d/gOtDVatB0l5FQw)
 
+### Evidence of Individual Contributions
+
+All team members have provided evidence of their work through various deliverables:
+
+- **Code commits and pull requests**: 
+  - [Vlad's smart caret](https://github.com/vladkalinichencko/Killah-Prototype/commit/2f4a7ea70bf807affaeb9adfdab0ecc86b3db08f)
+  - [Polina's model integration](https://github.com/vladkalinichencko/Killah-Prototype/commit/0363f49c1cedb632d74ac1a899be2bbedfce8fdf)
+  - [Max's dataset processing](https://github.com/vladkalinichencko/Killah-Prototype/commit/200a6be7e136c6567f5da82b069abe1fddfea44d)
+  - [Kira's Colab migration](https://colab.research.google.com/drive/1k1pF6HXKqJNHN7tRNnDmQZj6H9ndsLJE?authuser=1#scrollTo=1nTnnTy8Gr7j)
+- **Design mockups and screenshots**: [Here](https://disk.yandex.ru/d/gOtDVatB0l5FQw)
+- **Research documentation**: [Market research started by Janna](https://disk.yandex.ru/d/gOtDVatB0l5FQw)
+- **Technical documentation**: [Comprehensive technical documentation](https://github.com/vladkalinichencko/Killah-Prototype/tree/master/Documents)
+
+Detailed evidence and work samples are available in our shared repository and documentation system.
 
 
 ## Plan for Next Week
 
-*No information provided for the plan for next week.*
-# ТУТ ДОЛЖНЫ БЫТЬ ПЛАНЫ НА СЛЕД НЕДЕЛЮ
+### Development Goals for Week #3
+
+For the upcoming week, our team has identified several key objectives to advance the project:
+
+**Audio Processing Integration**: Implement audio input and processing capabilities to expand the application's functionality beyond text-based interactions. This will enable users to interact with the application using voice commands and audio content.
+
+**On-Device Model Enhancement**: Continue development of local machine learning models that can efficiently run on user devices, ensuring optimal performance and privacy.
+
+**Interactive Text Caret Refinement**: Complete the implementation of a fully functional interactive text caret that provides smooth and responsive text editing experience, as well as complex UI for audio input.
+
+**Full-Featured Text Editor**: Complete a comprehensive text editor with advanced features including syntax highlighting, font alignment, and streamed auto-completion.
+
+**MLP Projector Training**: Begin training the first component of our model architecture - the MLP (Multi-Layer Perceptron) projector specifically designed for audio processing. This will serve as the foundation for audio-to-text and audio understanding capabilities.
+
+### Success Metrics
+
+- Functional audio input system
+- Trained and validated MLP projector model
+- Responsive text caret with real-time feedback
+- Complete text editor with core features
+- Performance benchmarks for on-device model execution
 
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
 
- * Can be run (Not fully free of bugs yet).
- 
- * Runs on the intended platform: macOS 15 via Xcode.
+- Can be run (Not fully free of bugs yet).
+- Runs on the intended platform: macOS 15 via Xcode.
 
-If you encounter any problems running the setup, feel free to contact us and get help. Or maybe we can provide a video with how the current state of the prototype is working. 
+If you encounter any problems running the setup, feel free to contact us and get help. Or maybe we can provide a video with how the current state of the prototype is working.
