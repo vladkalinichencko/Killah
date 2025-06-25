@@ -19,13 +19,13 @@ During Week #3, the team made significant progress toward implementing core feat
    - Implemented embedding generation from audio inputs, allowing the application to convert spoken ideas into structured text.
    - Fixed token streaming issues to ensure smooth real-time text generation from audio inputs.
    - **User Journey**: As a journalist or content creator, I can dictate notes or ideas, and the application will convert them into polished, style-consistent text drafts, streamlining my workflow.
-   - **Relevant PR**https://github.com/vladkalinichencko/Killah-Prototype/commit/5e728e5152dddf96125648c9b50817961da3e2a4
+   - **Relevant PR** https://github.com/vladkalinichencko/Killah-Prototype/commit/5e728e5152dddf96125648c9b50817961da3e2a4
 
 3. **LoRA Adapter Integration for Model Training** (Kira):
    - Added a LoRA (Low-Rank Adaptation) adapter to the model training and inference scripts, enhancing the personalization capabilities of the Gemma 3 4B model.
    - Ensured compatibility with the existing hierarchical LoRA architecture (r=64) for style preservation.
    - **User Journey**: As a fiction writer, I benefit from the model adapting to my unique writing style, ensuring text suggestions align with my established voice.
-   - **Relevant PR/Notebook**: in progress on moment of report writing 
+   - **Relevant PR/Notebook**: https://github.com/vladkalinichencko/Killah-Prototype/commit/387483a68ff27d78be43637a15563092ee4be9b6
 
 4. **MLP Projector Training for Audio Processing** (Vlad, Maxim):
    - Trained an MLP (Multi-Layer Perceptron) projector specifically for audio processing, enabling the model to handle audio-to-text and audio understanding tasks.
