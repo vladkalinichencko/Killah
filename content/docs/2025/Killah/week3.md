@@ -31,14 +31,14 @@ During Week #3, the team made significant progress toward implementing core feat
    - Trained an MLP (Multi-Layer Perceptron) projector specifically for audio processing, enabling the model to handle audio-to-text and audio understanding tasks.
    - Used datasets such as LibriSpeech, Common Voice, and Open STT for training.
    - **User Journey**: As a user relying on voice input, I can trust the application to accurately process and convert my spoken ideas into structured text.
-   - **Relevant PR**:
+   - **Relevant PR**: https://github.com/vladkalinichencko/Killah-Prototype/commit/a2fac512a0dc83f1ffcebcc3b46bf692c437bdc5
 
 5. **User Stories and Market Analysis** (Janna):
    - Developed detailed user stories to refine the target audience and use cases.
    - Conducted extensive market research, analyzing direct competitors (e.g., Grammarly, ProWritingAid) and indirect competitors (e.g., ChatGPT, other AI writing tools) to validate the unique market position of Killah.
    - Identified key differentiators: style preservation, on-device processing for privacy, and voice-to-text workflow.
    - **User Journey**: As a PhD student or content creator, I can rely on Killah to provide personalized, style-consistent assistance without compromising my data privacy.
-   - **Relevant Documentation**: 
+   - **Relevant Documentation**: https://disk.yandex.ru/d/gOtDVatB0l5FQw
 
 ## Demonstration of the Working MVP
 
