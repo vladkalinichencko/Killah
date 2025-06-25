@@ -84,7 +84,10 @@ The current MVP includes a functional macOS-native text editor with list support
   - Introduce cross-attention mechanisms between audio and text.
 
 ### Links to Initial Model Artifacts
-# CCЫЛКИ
+https://huggingface.co/google/gemma-3-4b-pt
+
+https://huggingface.co/facebook/wav2vec2-base
+
 
 ## Internal Demo
 ### Notes from Internal Demo
