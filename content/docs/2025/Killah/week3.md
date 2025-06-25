@@ -27,7 +27,7 @@ During Week #3, the team made significant progress toward implementing core feat
    - **User Journey**: As a fiction writer, I benefit from the model adapting to my unique writing style, ensuring text suggestions align with my established voice.
    - **Relevant PR/Notebook**: in progress on moment of report writing 
 
-4. **MLP Projector Training for Audio Processing** (Maxim):
+4. **MLP Projector Training for Audio Processing** (Vlad):
    - Trained an MLP (Multi-Layer Perceptron) projector specifically for audio processing, enabling the model to handle audio-to-text and audio understanding tasks.
    - Used datasets such as LibriSpeech, Common Voice, and Open STT for training.
    - **User Journey**: As a user relying on voice input, I can trust the application to accurately process and convert my spoken ideas into structured text.
@@ -103,9 +103,11 @@ Since the language model is in the training stage, our team focused on refining 
    - Updated design documentation with new user story insights.
    [Market Research and User Stories](https://disk.yandex.ru/d/x64yvKSf8DIJDQ)
 
-2. **Maxim**:
+2. **Maxim**:   
+   - Collect a dataset with books, other good literature from the Internet, blogs: mainly lengths greater than 128,000 tokens
    - Trained the MLP projector for audio processing using LibriSpeech, Common Voice, and Open STT datasets.
    - Implemented training improvements (e.g., normalization, W&B logging, console output cleanup).
+     [datasets](https://github.com/vladkalinichencko/Killah-Prototype/commit/29613eae976f20f3e65102c19688f4e2432cdf81)
 
 3. **Kira**:
    - Integrated LoRA adapter into model training and inference scripts.
@@ -113,10 +115,11 @@ Since the language model is in the training stage, our team focused on refining 
      
 
 4. **Vlad**:
+   - Trained the MLP projector for audio processing using LibriSpeech, Common Voice, and Open STT datasets.
    - Implemented list support (bulleted and numbered) in the NSTextView-based editor.
    - Ensured seamless integration with the existing toolbar and caret functionality.
 
-5. **Polina**:
+6. **Polina**:
    - Integrated audio modality for voice input and embedding generation.
    - Fixed token streaming for real-time text generation from audio inputs.
 
