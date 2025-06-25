@@ -12,20 +12,20 @@ During Week #3, the team made significant progress toward implementing core feat
    - Added support for creating and managing lists (bulleted and numbered) within the macOS-native text editor.
    - Ensures seamless integration with the existing NSTextView-based editor, maintaining a caret-centric UI.
    - **User Journey**: As a novelist or journalist, I can now create structured lists within my drafts, improving document organization and readability while maintaining my writing flow.
-   - **Relevant PR**: https://github.com/vladkalinichencko/Killah-Prototype/commit/a2fac512a0dc83f1ffcebcc3b46bf692c437bdc5
+   - **Relevant PR**: https://github.com/vladkalinichencko/Killah-Prototype/commit/b19c20ca4444a630d8787492645a563b149c873b
 
 2. **Audio Modality Integration** (Polina):
    - Integrated audio input processing to enable voice dictation and command recognition.
    - Implemented embedding generation from audio inputs, allowing the application to convert spoken ideas into structured text.
    - Fixed token streaming issues to ensure smooth real-time text generation from audio inputs.
    - **User Journey**: As a journalist or content creator, I can dictate notes or ideas, and the application will convert them into polished, style-consistent text drafts, streamlining my workflow.
-   - **Relevant PR**:https://github.com/vladkalinichencko/Killah-Prototype/commit/b19c20ca4444a630d8787492645a563b149c873b
+   - **Relevant PR**https://github.com/vladkalinichencko/Killah-Prototype/commit/5e728e5152dddf96125648c9b50817961da3e2a4
 
 3. **LoRA Adapter Integration for Model Training** (Kira):
    - Added a LoRA (Low-Rank Adaptation) adapter to the model training and inference scripts, enhancing the personalization capabilities of the Gemma 3 4B model.
    - Ensured compatibility with the existing hierarchical LoRA architecture (r=64) for style preservation.
    - **User Journey**: As a fiction writer, I benefit from the model adapting to my unique writing style, ensuring text suggestions align with my established voice.
-   - **Relevant PR/Notebook**: https://github.com/vladkalinichencko/Killah-Prototype/commit/5e728e5152dddf96125648c9b50817961da3e2a4
+   - **Relevant PR/Notebook**: in progress on moment of report writing 
 
 4. **MLP Projector Training for Audio Processing** (Maxim):
    - Trained an MLP (Multi-Layer Perceptron) projector specifically for audio processing, enabling the model to handle audio-to-text and audio understanding tasks.
@@ -44,13 +44,11 @@ During Week #3, the team made significant progress toward implementing core feat
 
 The current MVP includes a functional macOS-native text editor with list support, audio input processing, and initial model personalization via LoRA adapters. Below are the planned deliverables to demonstrate the MVP (note: specific screenshots, GIFs, or videos were not provided in the input):
 
-
+# ВИДЕО 
 
 ## ML
 
-### Link to the Training Code
-- **MLP Projector Training**: [Dataset Processing and Training Setup](https://github.com/vladkalinichencko/Killah-Prototype/commit/200a6be7e136c6567f5da82b069abe1fddfea44d) *(Note: Placeholder link; please provide the specific training script link if available)*.
-- **LoRA Adapter Script**: [Colab Notebook](https://colab.research.google.com/drive/ZZ) *(Note: Placeholder link; please provide the specific notebook link for LoRA integration)*.
+### Link to the Training Code: https://github.com/vladkalinichencko/Killah-Prototype/commit/a2fac512a0dc83f1ffcebcc3b46bf692c437bdc5
 
 ### Model Training Description
 - **Data Used**:
@@ -86,12 +84,11 @@ The current MVP includes a functional macOS-native text editor with list support
   - Introduce cross-attention mechanisms between audio and text.
 
 ### Links to Initial Model Artifacts
-- *(Note: Specific model artifact links were not provided in the input. Please provide links to pre-trained models, weights, or checkpoints if available.)*
+# CCЫЛКИ
 
 ## Internal Demo
-
 ### Notes from Internal Demo
--
+- 
 
 
 
