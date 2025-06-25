@@ -12,20 +12,20 @@ During Week #3, the team made significant progress toward implementing core feat
    - Added support for creating and managing lists (bulleted and numbered) within the macOS-native text editor.
    - Ensures seamless integration with the existing NSTextView-based editor, maintaining a caret-centric UI.
    - **User Journey**: As a novelist or journalist, I can now create structured lists within my drafts, improving document organization and readability while maintaining my writing flow.
-   - **Relevant PR**: 
+   - **Relevant PR**: https://github.com/vladkalinichencko/Killah-Prototype/commit/a2fac512a0dc83f1ffcebcc3b46bf692c437bdc5
 
 2. **Audio Modality Integration** (Polina):
    - Integrated audio input processing to enable voice dictation and command recognition.
    - Implemented embedding generation from audio inputs, allowing the application to convert spoken ideas into structured text.
    - Fixed token streaming issues to ensure smooth real-time text generation from audio inputs.
    - **User Journey**: As a journalist or content creator, I can dictate notes or ideas, and the application will convert them into polished, style-consistent text drafts, streamlining my workflow.
-   - **Relevant PR**:
+   - **Relevant PR**:https://github.com/vladkalinichencko/Killah-Prototype/commit/b19c20ca4444a630d8787492645a563b149c873b
 
 3. **LoRA Adapter Integration for Model Training** (Kira):
    - Added a LoRA (Low-Rank Adaptation) adapter to the model training and inference scripts, enhancing the personalization capabilities of the Gemma 3 4B model.
    - Ensured compatibility with the existing hierarchical LoRA architecture (r=64) for style preservation.
    - **User Journey**: As a fiction writer, I benefit from the model adapting to my unique writing style, ensuring text suggestions align with my established voice.
-   - **Relevant PR/Notebook**: 
+   - **Relevant PR/Notebook**: https://github.com/vladkalinichencko/Killah-Prototype/commit/5e728e5152dddf96125648c9b50817961da3e2a4
 
 4. **MLP Projector Training for Audio Processing** (Maxim):
    - Trained an MLP (Multi-Layer Perceptron) projector specifically for audio processing, enabling the model to handle audio-to-text and audio understanding tasks.
@@ -127,28 +127,23 @@ The current MVP includes a functional macOS-native text editor with list support
 ## Plan for Next Week
 
 ### Development Goals for Week #4
-1. **Advanced Text Editor Features**:
-   - Implement syntax highlighting and font alignment in the text editor.
-   - Add streamed auto-completion for predictive text continuation.
-2. **Audio Processing Refinement**:
-   - Optimize the audio-to-text pipeline for faster processing and improved accuracy.
-   - Add support for voice command recognition (e.g., “start new paragraph”).
-3. **Model Personalization**:
-   - Enhance PersonaPlugs for better style adaptation based on user writing samples.
-   - Validate LoRA adapter performance with user-specific datasets.
-4. **UI/UX Improvements**:
-   - Iterate on the editor’s UI to support advanced formatting options.
-   - Finalize logo design and integrate it into the application.
-5. **Testing and Performance**:
-   - Conduct performance benchmarks for on-device model execution.
-   - Test the MVP with real user scenarios (e.g., dictating a short story or academic abstract).
+1. **Adjust Caret Window Positioning**:
+   - Implement functionality to move the text caret window away from the edges of the application window, improving usability and visual clarity.
+2. **Collect Dataset for Instruction-Following in Audio Transcription**:
+   - Gather a dataset tailored for training the model to follow specific instructions during audio transcription, enhancing command recognition accuracy.
+3. **Collect Dataset of Long-Form Text**:
+   - Compile a dataset of books, high-quality literature, and blogs from the internet, prioritizing texts longer than 128,000 tokens to support style adaptation for extended writing.
+4. **Integrate Model with Projector and Adapter into Application**:
+   - Embed the trained model, including the MLP projector and LoRA adapter, into the macOS application for seamless on-device processing.
+5. **Add Sequential LoRA Adapters for Syntax**:
+   - Incorporate multiple LoRA adapters in sequence within the model to improve syntactic accuracy and style consistency in generated text.
 
 ### Success Metrics
-- Fully functional text editor with syntax highlighting and auto-completion.
-- Accurate and low-latency audio-to-text conversion.
-- Improved style consistency in generated text (measured via user feedback or automated metrics).
+- Caret window repositioning implemented with improved user feedback.
+- Datasets for instruction-following and long-form text collected and pre-processed.
+- Model with projector and adapter successfully integrated into the application.
+- Sequential LoRA adapters implemented and validated for syntactic improvements.
 - Stable performance on macOS 15 with <8GB memory footprint.
-- Successful internal demo showcasing all Week #4 features.
 
 ## Confirmation of the Code’s Operability
 
