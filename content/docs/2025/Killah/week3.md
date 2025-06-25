@@ -27,7 +27,7 @@ During Week #3, the team made significant progress toward implementing core feat
    - **User Journey**: As a fiction writer, I benefit from the model adapting to my unique writing style, ensuring text suggestions align with my established voice.
    - **Relevant PR/Notebook**: in progress on moment of report writing 
 
-4. **MLP Projector Training for Audio Processing** (Vlad):
+4. **MLP Projector Training for Audio Processing** (Vlad, Maxim):
    - Trained an MLP (Multi-Layer Perceptron) projector specifically for audio processing, enabling the model to handle audio-to-text and audio understanding tasks.
    - Used datasets such as LibriSpeech, Common Voice, and Open STT for training.
    - **User Journey**: As a user relying on voice input, I can trust the application to accurately process and convert my spoken ideas into structured text.
@@ -39,6 +39,11 @@ During Week #3, the team made significant progress toward implementing core feat
    - Identified key differentiators: style preservation, on-device processing for privacy, and voice-to-text workflow.
    - **User Journey**: As a PhD student or content creator, I can rely on Killah to provide personalized, style-consistent assistance without compromising my data privacy.
    - **Relevant Documentation**: https://disk.yandex.ru/d/x64yvKSf8DIJDQ
+  
+6. **Dataset with books** (Maxim):
+   - Developed a scripts that collected a corpus of long literary texts to train a language model: connected and processed the institutional-books dataset, implemented filtering, saving books with a volume of more than 128,000 tokens and began developing scripts for parsing modern literature: blogs from LiveJournal, author Telegram channels and other high-quality sources.
+   - **Relevant commit**: https://github.com/vladkalinichencko/Killah-Prototype/commit/14eb1dae260c38878dd0ea00106cdeff180785e7
+https://github.com/vladkalinichencko/Killah-Prototype/commit/29613eae976f20f3e65102c19688f4e2432cdf81
 
 ## Demonstration of the Working MVP
 
