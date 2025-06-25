@@ -38,13 +38,12 @@ During Week #3, the team made significant progress toward implementing core feat
    - Conducted extensive market research, analyzing direct competitors (e.g., Grammarly, ProWritingAid) and indirect competitors to validate the unique market position of Killah.
    - Identified key differentiators: style preservation, on-device processing for privacy, and voice-to-text workflow.
    - **User Journey**: As a PhD student or content creator, I can rely on Killah to provide personalized, style-consistent assistance without compromising my data privacy.
-   - **Relevant Documentation**: https://disk.yandex.ru/d/gOtDVatB0l5FQw
+   - **Relevant Documentation**: https://disk.yandex.ru/d/x64yvKSf8DIJDQ
 
 ## Demonstration of the Working MVP
 
-The current MVP includes a functional macOS-native text editor with list support, audio input processing, and initial model personalization via LoRA adapters. Below are the planned deliverables to demonstrate the MVP (note: specific screenshots, GIFs, or videos were not provided in the input):
-
-# ВИДЕО 
+The current MVP includes a functional macOS-native text editor with list support, audio input processing, and initial model personalization via LoRA adapters. Below are the planned deliverables to demonstrate the MVP : 
+[video is here](https://disk.yandex.ru/d/x64yvKSf8DIJDQ) 
 
 ## ML
 
@@ -91,7 +90,7 @@ https://huggingface.co/facebook/wav2vec2-base
 
 ## Internal Demo
 ### Notes from Internal Demo
-- 
+Since the language model is in the training stage, our team focused on refining the interface. An internal demo was conducted among our ML specialists. In our plans for the next week, we have a user experience interviews.
 
 
 
@@ -100,29 +99,26 @@ https://huggingface.co/facebook/wav2vec2-base
 ### Individual Contribution of Each Participant
 1. **Janna**:
    - Developed detailed user stories for fiction writers, journalists, and academic writers.
-   - Conducted market research, analyzing direct (e.g., Grammarly) and indirect (e.g., ChatGPT) competitors to validate Killah’s unique position.
+   - Added information into market research, analyzing direct (e.g., Grammarly) and indirect competitors to validate Killah’s unique position.
    - Updated design documentation with new user story insights.
-   - **Evidence**: [Market Research and User Stories]
+   [Market Research and User Stories](https://disk.yandex.ru/d/x64yvKSf8DIJDQ)
 
 2. **Maxim**:
    - Trained the MLP projector for audio processing using LibriSpeech, Common Voice, and Open STT datasets.
    - Implemented training improvements (e.g., normalization, W&B logging, console output cleanup).
-   - **Evidence**: [Dataset Processing Commit]
 
 3. **Kira**:
    - Integrated LoRA adapter into model training and inference scripts.
    - Updated Colab scripts for reproducibility and migrated them to the Git repository.
-   - **Evidence**: [Colab Notebook]
+     
 
 4. **Vlad**:
    - Implemented list support (bulleted and numbered) in the NSTextView-based editor.
    - Ensured seamless integration with the existing toolbar and caret functionality.
-   - **Evidence**: [List Implementation Commit]
 
 5. **Polina**:
    - Integrated audio modality for voice input and embedding generation.
    - Fixed token streaming for real-time text generation from audio inputs.
-   - **Evidence**: [Audio Modality Commit]
 
 ## Plan for Next Week
 
@@ -137,6 +133,10 @@ https://huggingface.co/facebook/wav2vec2-base
    - Embed the trained model, including the MLP projector and LoRA adapter, into the macOS application for seamless on-device processing.
 5. **Add Sequential LoRA Adapters for Syntax**:
    - Incorporate multiple LoRA adapters in sequence within the model to improve syntactic accuracy and style consistency in generated text.
+6. **Start conducting and UX interviews**:
+   - Begin conducting user experience (UX) interviews to gather feedback on the Killah application, focusing on usability, feature relevance, and user needs to inform further design iterations.
+
+
 
 ### Success Metrics
 - Caret window repositioning implemented with improved user feedback.
