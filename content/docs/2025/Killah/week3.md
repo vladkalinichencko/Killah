@@ -35,7 +35,7 @@ During Week #3, the team made significant progress toward implementing core feat
 
 5. **User Stories and Market Analysis** (Janna):
    - Developed detailed user stories to refine the target audience and use cases.
-   - Conducted extensive market research, analyzing direct competitors (e.g., Grammarly, ProWritingAid) and indirect competitors (e.g., ChatGPT, other AI writing tools) to validate the unique market position of Killah.
+   - Conducted extensive market research, analyzing direct competitors (e.g., Grammarly, ProWritingAid) and indirect competitors to validate the unique market position of Killah.
    - Identified key differentiators: style preservation, on-device processing for privacy, and voice-to-text workflow.
    - **User Journey**: As a PhD student or content creator, I can rely on Killah to provide personalized, style-consistent assistance without compromising my data privacy.
    - **Relevant Documentation**: https://disk.yandex.ru/d/gOtDVatB0l5FQw
