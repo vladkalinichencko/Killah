@@ -112,7 +112,27 @@ We’re currently fine-tuning and further training our model, monitoring writing
 
 ## Plan for Next Week
 
-*...*
+Polina:
+- Development of an audio recognition system in GGUF
+- Implementation of KV cache
+- Implementation of GGUF streaming
+
+Janna:
+- Development of landing page design
+- Creation of materials for market communication in accordance with market research
+  
+Max:
+- Creation of a dataset from blogs
+- Training of models
+  
+Kira:
+- Work on the personalization script
+-  Training of models
+-   valuation of the quality of models
+  
+Vlad:
+- Development of a document viewing window
+- Training of the model to follow instructions
 
 ## Confirmation of the code's operability
 
